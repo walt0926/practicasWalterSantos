@@ -1,0 +1,32 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.tarjeta {
+    border-style: solid;
+    border-radius: 10px;
+    border-color: goldenrod;
+    border-width: 2px;
+
+    width: 15%; 
+    margin: 15px;
+    padding: 10px;
+
+    text-align: center;
+    box-sizing: border-box;
+
+    display: inline-block;
+    background-color: #fff;
+}
+
+.tarjeta img {
+    width: 75%;
+    height: 200px; 
+    border-radius: 8px;
+}
+
+.oculto {
+    display: none;
+}
